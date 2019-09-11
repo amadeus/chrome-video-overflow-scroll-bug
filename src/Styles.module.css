@@ -1,0 +1,24 @@
+html,
+body {
+  background-color: #36393f;
+  color: #dcddde;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+video {
+  display: block;
+}
+
+.scroller {
+  width: 500px;
+  height: 400px;
+  overflow: auto;
+}
