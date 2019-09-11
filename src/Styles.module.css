@@ -4,6 +4,9 @@ body {
   color: #dcddde;
   margin: 0;
   padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
 }
 
 body {
@@ -15,10 +18,24 @@ body {
 
 video {
   display: block;
+  margin-top: 20px;
+}
+
+p {
+  margin: 0 0 10px;
 }
 
 .scroller {
   width: 500px;
-  height: 400px;
+  height: 300px;
   overflow: auto;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+a {
+  color: #fff;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
 }
